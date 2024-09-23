@@ -3,3 +3,4 @@ pandas
 google-generativeai
 ydata-profiling
 pydantic
+setuptools
