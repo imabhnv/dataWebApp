@@ -1,6 +1,6 @@
 streamlit
 pandas
 google-generativeai
-pandas-profiling==3.2.0
+pandas-profiling
 pydantic==1.10.11
 ydata-profiling
