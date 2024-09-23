@@ -68,10 +68,11 @@ def detect_anomalies(df):
         st.warning("No numeric columns available for anomaly detection.")
 
 def auto_eda_report(df):
-    profile = df.profile_report(title="Pandas Profiling Report")
+    profile = ProfileReport(df, title="Pandas Profiling Report")
     st.header("Auto EDA Report")
     st_profile_html = profile.to_html()
     components.html(st_profile_html, height=1000, scrolling=True)
+
 
 def main():
     setup_generative_ai()
