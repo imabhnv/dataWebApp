@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 import google.generativeai as genai
 import streamlit.components.v1 as components
-import pandas_profiling 
+from pandas_profiling import ProfileReport
 
 def setup_generative_ai():
     api_key = st.secrets["api_key"]
