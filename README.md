@@ -61,7 +61,7 @@ A web-based interactive tool built using **Streamlit** and **Google Generative A
 
 Here's an example of how the app works:
 
-![Watch on LinkedIn](path/to/screenshot.png)
+[Watch on LinkedIn](https://www.linkedin.com/posts/abhinav-varshney-bb9bb7204_connections-datascience-artificialintelligence-activity-7244092884088483840-vxxJ?utm_source=share&utm_medium=member_desktop)
 
 ## License 📄
 
